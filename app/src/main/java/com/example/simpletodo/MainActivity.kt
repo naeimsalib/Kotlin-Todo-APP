@@ -2,7 +2,6 @@ package com.example.simpletodo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -30,11 +29,6 @@ class MainActivity : AppCompatActivity() {
                 saveItems()
             }
         }
-        //1. Let's detect when eh users clicks on the add button.
-//        findViewById<Button>(R.id.button).setOnClickListener{
-//            // Code in here is going to be executed whent eh user clicks on a button
-//            Log.i("Caren", "User clicked on button")
-//        }
 
 
         loadItems()
